@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Scheda</title>
+    <link rel="stylesheet" href="scheda.css"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="lib/d3.js"></script>
+    <script type="text/javascript" src="lib/d3-simple-slider.min.js"></script>
+    <script type="text/javascript" src="lib/linq.js"></script>
+    <script type="text/javascript" src = "js/progettoUIT.js"> </script>
+    <script src="lib/math.js" type="text/javascript"></script>
+
+</head>
+<body class="w3-gray">
+
+    <!-- Page Container -->
+    <div class="w3-large w3-margin-top">
+        <!-- The Grid -->
+        <div class="w3-row">
+
+            <div class="w3-container">
+                <h1><b>Scheda tecnica</b></h1>
+                <div class="w3-section w3-bottombar w3-padding-10"></div>
+            </div>
+            <!-- Left Column -->
+            <div class="w3-third" id="sinistra">
+
+                <div class="w3-white w3-text-indigo" id = "scheda">
+                    <div class="w3-display-container" id="immagine">
+                        <!--<img id= "giocatore" src="../img/Ronaldo.jpg" >-->
+                    </div>
+                <div class="w3-container" id="dati">
+                    <p id="ruolo">Ruolo: </p>
+                    <p id="nick">Nickname: </p>
+                    <p id="nome">Nome: </p>
+                    <p id="cognome">Cognome: </p>
+                    <p id="squadra">Squadra: </p>
+                    <p id="piede">Piede: </p>
+                    <p id ="gol">Goal: </p>
+                    <p id="errori">Parati: </p>
+                </div>
+                </div><br>
+            <!-- End Left Column -->
+            </div>
+
+
+            <!-- Right Column -->
+            <div class="w3-twothird">
+
+                <div class="w3-container w3-card w3-white w3-margin-bottom" id = "destra">
+                    <h2 class="w3-text-indigo w3-padding-10"></i>Statistiche porte</h2>
+                    <div class="w3-container" id="slider-simple">
+                        <p id="risoluzione"></p>
+                    </div>
+                    <div class="w3-container" id="porta">
+
+                    </div>
+                </div>
+
+            <!-- End Right Column -->
+            </div>
+            <button  onclick = "window.location.href = '/src/squadre.html'" id="bottone" > Indietro </button>
+        </div>
+
+    </div>
+</body>
+</html>

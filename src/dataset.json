@@ -1,0 +1,70 @@
+[
+ {"id":1, "squadra":"Spartans","cognome":"Carrera","nome":"Esteban","nickname":"Gunner","anno_nascita":"1997","nazionalita":"Argentina","ruolo":"A","numero":"10","piede":"dx","totali":"100","segnati":"91","sbagliati":"9","parati":"4","fuori":"2","traverse":"2","pali":"1","piede_sx":"5","piede_dx":"95",
+  "img": "",
+  "small_img": "player-small-Spartans.png",
+  "statP3X3":
+ [
+  [0.06,0.15,0.04],
+  [0.11,0.08,0.06],
+  [0.24,0.11,0.21]
+ ]
+ },
+  {"id":2,"squadra":"Spartans","cognome":"Santiago","nome":"Carlos","nickname":"Verao","anno_nascita":"1998","nazionalita":"Argentina","ruolo":"A","numero":"9","piede":"dx","totali":"100","segnati":"93","sbagliati":"7","parati":"3","fuori":"2","traverse":"0","pali":"2","piede_sx":"1","piede_dx":"99",
+  "img": "",
+  "small_img": "player-small-Spartans.png",
+  "statP3X3":
+ [
+  [0.06,0.05,0.04],
+  [0.11,0.08,0.09],
+  [0.24,0.11,0.21]
+ ]},
+ {"id":3,"squadra":"Spartans","cognome":"Sanchez","nome":"Tobias","nickname":"Tango","anno_nascita":"1995","nazionalita":"Argentina","ruolo":"A","numero":"11","piede":"sx","totali":"100","segnati":"84","sbagliati":"16","parati":"7","fuori":"6","traverse":"0","pali":"3","piede_sx":"100","piede_dx":"0",
+  "img": "",
+  "small_img": "player-small-Spartans.png",
+  "statP3X3":
+ [
+  [0.06,0.15,0.04],
+  [0.11,0.08,0.09],
+  [0.4,0.11,0.1]
+ ]},
+ {"id":4,"squadra":"Galacticos","cognome":"Lima","nome":"Luis","nickname":"SpaceAce","anno_nascita":"2000","nazionalita":"Brasile","ruolo":"C","numero":"7","piede":"dx","totali":"100","segnati":"82","sbagliati":"18","parati":"6","fuori":"9","traverse":"0","pali":"5","piede_sx":"10","piede_dx":"90",
+  "img": "",
+  "small_img": "player-small-galacticos.png",
+  "statP3X3":
+  [
+   [0.06,0.05,0.04],
+   [0.11,0.08,0.09],
+   [0.12,0.11,0.11]
+  ]},
+ {"id":5,"squadra":"Spartans","cognome":"Ortiz","nome":"Luis","nickname":"The Wall","anno_nascita":"1995","nazionalita":"Argentina","ruolo":"A","numero":"1","piede":"dx","totali":"100","subiti":"61","sbagliati":"39","parati":"19","fuori":"10","traverse":"2","pali":"8","piede_sx":"5","piede_dx":"95",
+  "img": "",
+  "small_img": "goalkeeper-small-base.png",
+  "statP3X3":
+  [
+   [0.03,0.05,0.04],
+   [0.11,0.08,0.19],
+   [0.24,0.11,0.1]
+  ]
+ },
+
+ {"id":9,"squadra":"Carioca","cognome":"Manoel","nome":"Francisco","nickname":"TNT","anno_nascita":"1997","nazionalita":"Brasile","ruolo":"A","numero":"9","piede":"dx","totali":"100","segnati":"90","sbagliati":"10","parati":"3","fuori":"3","traverse":"1","pali":"3","piede_sx":"2","piede_dx":"98",
+  "img": "",
+  "small_img": "player-small-Spartans.png",
+  "statP3X3":
+  [
+   [0.11,0.08,0.09],
+   [0.04,0.08,0.10],
+   [0.24,0.11,0.15]
+  ]},
+
+ {"id":10,"squadra":"Spartans","cognome":"Santana","nome":"Marco","nickname":"Polpo","anno_nascita":"1995","nazionalita":"Argentina","ruolo":"P","numero":"1","piede":"dx","totali":"100","subiti":"61","sbagliati":"39","parati":"19","fuori":"10","traverse":"2","pali":"8","piede_sx":"5","piede_dx":"95",
+  "img": "",
+  "small_img": "goalkeeper-small-base.png",
+  "statP3X3":
+  [
+   [0.01,0.05,0.04],
+   [0.13,0.08,0.09],
+   [0.24,0.12,0.24]
+  ]
+ }
+ ]

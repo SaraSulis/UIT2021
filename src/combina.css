@@ -1,0 +1,73 @@
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+
+h1{
+    color: white;
+}
+
+h2{
+    text-align: left;
+}
+.w3-large{
+    max-width:1600px;
+    margin-left: 128px;
+    margin-right: 128px;
+}
+
+.w3-quarter{
+    width: 35%;
+}
+
+
+
+figure{
+    float: left;
+
+}
+input[type=image]{
+     width: 70px;
+     height: 70px;
+ }
+
+input[type=checkbox]{
+    width: 30px;
+    height: 30px;
+
+
+}
+
+figcaption{
+    font-size: 20px;
+    position: relative;
+    left: -15px;
+    padding: 10px;
+}
+
+
+#bottone1{
+    position: relative;
+    top: 6px;
+    left:1200px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #14248a;
+    width: 120px;
+    height: 45px;
+}
+
+#bottone2{
+    position: relative;
+    top: 6px;
+    left:850px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #14248a;
+    width: 120px;
+    height: 45px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Confronto</title>
+    <link rel="stylesheet" href="confronto.css"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="lib/d3.js"></script>
+    <script type="text/javascript" src="lib/d3-simple-slider.min.js"></script>
+    <script type="text/javascript" src="lib/linq.js"></script>
+    <script type="text/javascript" src = "js/progettoUIT.js"> </script>
+    <script src="lib/math.js" type="text/javascript"></script>
+
+
+</head>
+<body class="w3-gray">
+
+<!-- Page Container -->
+<div class="w3-large w3-margin-top">
+    <!-- The Grid -->
+    <div class="w3-row" id="generale">
+
+        <div class="w3-container">
+            <h1><b>Dati analizzati</b></h1>
+            <div class="w3-section w3-bottombar  w3-padding-10">
+
+            </div>
+        </div>
+
+
+        <div class="w3-container w3-padding-5 w3-center w3-white w3-text-indigo " id="confronto">
+            <!-- Left Column -->
+            <div class="w3-col m2" id="sinistra">
+
+                <div class=" w3-card w3-white w3-text-indigo" id = "rigorista">
+                    <div class="w3-display-container" id="immagineR">
+                        <!--<img id= "giocatore" src="../img/Ronaldo.jpg" >-->
+                    </div>
+                    <div class="w3-container" id="datiR">
+                        <p id="nickR">Nick: </p>
+                        <p id="squadraR">Squadra: </p>
+
+                    </div>
+                </div><br>
+                <div class="w3-container" id="slider-simple">
+                    <p id="risoluzione"></p>
+                </div>
+                <!-- End Left Column -->
+            </div>
+            <div class="w3-col m7">
+            <div class="w3-container" id="porta">
+
+
+            </div>
+
+            </div>
+        <!-- Right Column -->
+        <div class="w3-col m2" id="destra">
+
+            <div class="w3-card w3-white w3-text-indigo w3-padding 5px" id = "portiere">
+                <div class="w3-display-container" id="immagineP">
+                    <!--<img id= "giocatore" src="../img/Ronaldo.jpg" >-->
+                </div>
+                <div class="w3-container" id="datiP">
+                    <p id="nickP">Nick: </p>
+                    <p id="squadraP">Squadra: </p>
+
+                </div>
+            </div><br>
+            <!-- End Right Column -->
+        </div>
+
+        </div>
+        <button  onclick = "window.location.href = '/src/classifica.html'" id="bottone" > Indietro </button>
+    </div>
+    </div>
+</body>
+</html>

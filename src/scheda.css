@@ -1,0 +1,96 @@
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+
+h2{
+    font-family: "Telargo", sans-serif; text-align: center
+}
+p{
+    text-align: left; font-family: "Telargo", sans-serif;
+}
+
+h1{
+    color: white;
+}
+
+.w3-large{
+    max-width:1600px;
+    margin-left: 128px;
+    margin-right: 128px;
+}
+
+.w3-row{
+    margin-bottom:128px;
+
+}
+
+#giocatore{
+    width:100%;
+}
+#porta{
+    width: 100%;
+}
+#immagine{
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+
+#dati{
+    position: relative;
+    left: 20px;
+    line-height:0.5px;
+}
+svg{
+    position: relative;
+    left: 100px;
+}
+
+
+#bottone{
+    position: relative;
+    top: 6px;
+    left:1220px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #14248a;
+    width: 120px;
+    height: 45px;
+}
+
+#sinistra{
+    height: 200px;
+}
+#destra{
+    height: 200%;
+}
+#slider-simple{
+    position: relative;
+    left: 110px;
+}
+
+p#risoluzione {
+    font-size: medium;
+    color: black;
+    text-align: left;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    position: relative;
+    left: 200px;
+    top: 30px;
+
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+
+
+
